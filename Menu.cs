@@ -16,5 +16,11 @@ namespace IS_1_20_KichiginIO_U
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Act1 act1 = new Act1();
+            act1.ShowDialog();
+        }
     }
 }
