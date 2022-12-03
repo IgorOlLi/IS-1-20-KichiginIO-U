@@ -22,5 +22,11 @@ namespace IS_1_20_KichiginIO_U
             Act1 act1 = new Act1();
             act1.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Act2 act2 = new Act2();
+            act2.ShowDialog();
+        }
     }
 }
