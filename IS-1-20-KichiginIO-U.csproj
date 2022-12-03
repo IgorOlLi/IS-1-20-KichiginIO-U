@@ -96,6 +96,12 @@
     <Compile Include="Act2.Designer.cs">
       <DependentUpon>Act2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Act3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Act3.Designer.cs">
+      <DependentUpon>Act3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Act2.resx">
       <DependentUpon>Act2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act3.resx">
+      <DependentUpon>Act3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
