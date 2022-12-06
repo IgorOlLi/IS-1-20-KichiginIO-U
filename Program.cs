@@ -19,12 +19,12 @@ namespace IS_1_20_KichiginIO_U
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Menu());
         }
-        static class DBUtils
+        public static class DBUtils
         {
             public static MySqlConnection GetDBConnection()
             {
-                string host = "10.90.12.110";
-                //string host = "caseum.ru";
+                //string host = "10.90.12.110";
+                string host = "chuc.caseum.ru";
                 string port = "33333";
                 string database = "is_1_20_st16_KURS";
                 string username = "st_1_20_16";
